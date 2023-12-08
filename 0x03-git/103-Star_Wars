@@ -1,0 +1,58 @@
+#!/bin/bash
+# Define colors
+BLUE='\033[34m'
+GREEN='\033[32m'
+YELLOW='\033[33m'
+RED='\033[31m'
+BOLD='\033[1m'
+RESET='\033[0m'
+
+# Display opening crawl
+echo -e "$BOLD$GREEN"
+echo -e ""
+echo -e " A long time ago in a galaxy far, far away..."
+echo -e ""
+echo -e " It is a period of civil war. Rebel spaceships, striking"
+echo -e " from a hidden base, have won their first victory against"
+echo -e " the evil Galactic Empire."
+echo -e ""
+echo -e " During the battle, Rebel spies managed to steal secret"
+echo -e " plans to the Empire's ultimate weapon, the DEATH STAR,"
+echo -e " an armored space station with enough power to destroy"
+echo -e " an entire planet."
+echo -e ""
+echo -e " Pursued by the Empire's sinister agents, Princess Leia"
+echo -e " races home aboard her starship, custodian of the stolen"
+echo -e " plans that can save her people and restore freedom to the"
+echo -e " galaxy...."
+echo -e ""
+echo -e "$RESET"
+
+# Display Star Wars logo
+echo -e "$BOLD$YELLOW"
+echo -e "  __  __                                     _       _ "
+echo -e " |  \/  |                                   | |     | |"
+echo -e " | \  / | ___  __ _ _ __  _ __   ___ ___   | |     | |__   ___ _ __ ___ "
+echo -e " | |\/| |/ _ \/ _' | '_ \| '_ \ / __/ _ \  | |     | '_ \ / _ \ '__/ _ \ "
+echo -e " | |  | |  __/ (_| | | | | | | | (_| (_) | | |___ | | | |  __/ | | (_) |"
+echo -e " |_|  |_|\___|\__,_|_| |_|_| |_|\___\___/  |_____||_| |_|\___|_|  \___/ "
+echo -e "$RESET"
+
+# Display scrolling text
+echo -e "$BLUE"
+echo -e "      Rebel spies report that the Empire is constructing a"
+echo -e "      massive space station, the DEATH STAR. This armored"
+echo -e "      space station is designed to destroy entire planets."
+echo -e ""
+echo -e "      The Imperial Senate is dissolved and the evil Lord Vader"
+echo -e "      is sent to chase Princess Leia to recover the stolen"
+echo -e "      plans...."
+echo -e "$RESET"
+
+# End program
+echo -e ""
+echo -e "$BOLD$GREEN"
+echo -e "                         Episode IV"
+echo -e "                     A NEW HOPE"
+echo -e ""
+echo -e "$RESET"
